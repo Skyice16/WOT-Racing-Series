@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Ligue F1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #8A2BE2; /* Violet */
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .link-button {
+            background-color: #000080; /* Bleu marine */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .link-button:hover {
+            background-color: #8A2BE2; /* Violet */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur ma Ligue F1</h1>
+        <p>Découvrez notre communauté passionnée de F1 et rejoignez-nous pour des courses palpitantes !</p>
+        <div class="links">
+            <a href="https://discord.gg/G5QV6gav" class="link-button">Rejoindre notre Discord</a>
+            <a href="https://www.twitch.tv/wolfonthetrack_131" class="link-button">Suivre sur Twitch</a>
+        </div>
+    </div>
+</body>
+</html>
